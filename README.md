@@ -31,4 +31,4 @@ Freeze Mode:
 When in freeze mode, right-clicking mouse will rotate the lights instead of the object, and left-clicking will scale the light sources (when applicable). Disable freeze mode to update light sources and illuminate at new position/direction.
 
 
-![sandal with all 3 lights](lightshade.png)
+![sandal with all 3 lights](lightshade.png "optional description")
