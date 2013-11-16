@@ -36,6 +36,7 @@ When in shader mode:
 * The point light should repulse the vertices as well, and shift their color towards red.
 * The spot light should attract the vertices, but only if they fall within its spot, and shift their color towards green.
 
+Note: When shading is enabled with multiple lights, the line segments and sphere used to draw the representation of the light will warp due to the shader manipulating the vertices. It only affects the drawn shape and does not affect the actual light source.
 
 Sandal with all 3 lights enabled with no shading.
 ![sandal with all 3 lights](lightshade.png "sandal with all 3 lights")
