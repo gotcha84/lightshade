@@ -36,6 +36,10 @@ When in shader mode:
 * The point light should repulse the vertices as well, and shift their color towards red.
 * The spot light should attract the vertices, but only if they fall within its spot, and shift their color towards green.
 
+
+Sandal with all 3 lights enabled with no shading.
 ![sandal with all 3 lights](lightshade.png "sandal with all 3 lights")
 
+
+Sandal with all 3 lights enabled with shading.
 ![sandal with all 3 lights and shaders enabled](lightshade2.png "sandal with all 3 lights and shaders enabled")
