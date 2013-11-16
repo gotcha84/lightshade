@@ -37,3 +37,5 @@ When in shader mode:
 * The spot light should attract the vertices, but only if they fall within its spot, and shift their color towards green.
 
 ![sandal with all 3 lights](lightshade.png "sandal with all 3 lights")
+
+![sandal with all 3 lights and shaders enabled](lightshade2.png "sandal with all 3 lights and shaders enabled")
