@@ -4,7 +4,7 @@ Project 4: Light and Shade
 
 (See full project specifications here: http://ivl.calit2.net/wiki/index.php/Project4Fall13)
 
-Renders white objects (some from given .obj files) with a specified material and 3 lights. Objects can also be rotated and scaled using the mouse. Freeze mode will enable the mouse to rotate and scale the light sources instead of the object. Objects can also be translated, rotated, and scaled using keyboard keys as in cube.
+Renders white objects (some from given .obj files) with a specified material and 3 lights. Objects can also be rotated and scaled using the mouse. Freeze mode will enable the mouse to rotate and scale the light sources instead of the object. Upon pressing '5', the GLSL vertex and fragment shaders will be toggled, causing some vertices to change and some triangles to change color. See below for full specs. Objects can also be translated, rotated, and scaled using keyboard keys as in cube.
 
 Objects:
 * F1: cube
@@ -28,5 +28,12 @@ Freeze Mode:
 
 When in freeze mode, right-clicking mouse will rotate the lights instead of the object, and left-clicking will scale the light sources (when applicable). Disable freeze mode to update light sources and illuminate at new position/direction.
 
+Shaders:
+* 5: Toggle shader mode
+
+When in shader mode:
+* The directional light should repulse the vertices, and do not cause a color shift.
+* The point light should repulse the vertices as well, and shift their color towards red.
+* The spot light should attract the vertices, but only if they fall within its spot, and shift their color towards green.
 
 ![sandal with all 3 lights](lightshade.png "sandal with all 3 lights")
