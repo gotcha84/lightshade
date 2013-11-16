@@ -38,6 +38,7 @@ When in shader mode:
 
 Note: When shading is enabled with multiple lights, the line segments and sphere used to draw the representation of the light will warp due to the shader manipulating the vertices. It only affects the drawn shape and does not affect the actual light source.
 
+
 Sandal with all 3 lights enabled with no shading.
 ![sandal with all 3 lights](lightshade.png "sandal with all 3 lights")
 
