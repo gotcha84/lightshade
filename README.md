@@ -15,7 +15,7 @@ Objects:
 * F9: house (view2)
 
 Mouse:
-* left-click: Rotate object using ```trackballRotation```
+* left-click: Rotate object using ```trackballRotation``` in ```Shape.cpp```
 * right-click: Scale object
 
 Lights:
